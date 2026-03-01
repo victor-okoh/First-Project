@@ -17,7 +17,7 @@ nav {
 }
 
 .logo .main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 25px;
 }
@@ -28,7 +28,7 @@ span {
 
 .nav-links a{
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #8EC7D5;
   padding: 0 14px;
 }
@@ -48,7 +48,7 @@ span {
   border-radius: 20px;
   border-color: #FDC134;
   color: white;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   transition: 0.3s ease-in;
 }
@@ -90,7 +90,7 @@ img {
 }
 
 .second-batch {
-  padding: 30px;
+  padding: 30px 30px 0 30px;
  }
 
 .secb {
@@ -117,17 +117,23 @@ img {
   justify-content: space-around;
   align-items: start;
   height: 100vh;
-  padding: 20px;
+  gap: 30px;
+  padding: 0px 120px;
 }
 
-img {
-  height: 400px;
-  width: 600px;
+.about-pic img {
+  height: 550px;
+  width: 500px;
 }
 
 .text-1 {
-  padding: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 20px 0 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.about-head {
+  font-family: "Raleway", sans-serif;
 }
 
 .about-doc {
@@ -137,12 +143,11 @@ img {
 }
 
 .q3 {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 5px;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  color: #848484;
   font-size: 15px;
 }
 
@@ -151,10 +156,176 @@ img {
 }
 
 .s1, .s2, .s3, .s4 {
-  padding: 10px;
+  padding: 12px;
+  line-height: 1.7em;
+}
+
+.service {
+  padding: 0 50px;
+  padding-top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.intro .serve-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: #213852;
+  text-transform: uppercase;
+  font-weight: 2px;
+}
+
+.line {
+  width: 120px;
+  height: 4.5px;
+  margin: 10px auto;
+  background: yellow;
+  outline-color: none;
+  
+}
+
+.serve-2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cont-1, .cont-2, .cont-3, .cont-4, .cont-5, .cont-6 {
+  margin-bottom: 80px;
+}
+
+.contents .sub-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.sub-heading, .details, .contents .a-link {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 40px;
+  position: relative;
+  top: -60px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 15px 0px;
+}
+
+.sub-heading .sub {
+  font-size: 17px;
+  color: black;
+}
+
+.details, .contents a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.contents a {
+  margin: 0;
+  text-decoration: none;
+  color: #444444;
+  font-size: 14px;
+}
+.a-link {
+  display: block;
+  text-align: left;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: #213852;
+
+}
+
+.price-pic {
+  width: 1000px;
+  height: 800px;
+  padding-top: 20px;
+}
+
+.contact {
+  padding-top: 90px;
+}
+
+.contact h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact .contact-content {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.side-1 {
+  width: 100%;
+  background-color: red;
+}
+
+.side-2 {
+  width: 90%;
+  background-color: red;
+}
+
+.address h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: #777777;
+  padding-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.address p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.contact .contact-det {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+
+ul li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   line-height: 1.5em;
 }
 
-.serve-1 {
-  color: red;
+ul li a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.mail h2, .tel h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  
 }
