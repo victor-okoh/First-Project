@@ -665,7 +665,7 @@ footer small {
 */
 
 
-@media (min-width:320px) and (max-width:450px) {
+@media (min-width:320px) and (max-width:720px) {
 
   nav {
     width: 100%;
