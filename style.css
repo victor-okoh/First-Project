@@ -660,9 +660,12 @@ footer small {
 }
 
 }
-
+/*
 @media (max-width:375px) {
-  
+*/
+
+
+@media (min-width:320px) and (max-width:450px) {
 
   nav {
     width: 100%;
